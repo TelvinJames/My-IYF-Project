@@ -1,62 +1,69 @@
 <!DOCTYPE html>
 <html>
-<head> </head>
+<head>
+    <title>Tevin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
     <header>
-        <a href="Taskpro">Taskpro</a>
-        <a href="Home">Home</a>
-        <a href="Services">Services</a>
-        <a href="About">About</a>
-        <a href="Contact">Contact</a>
+    <nav>
+        <h1>Tevin</h1>
+    <div>
+        <a href="#home">home</a>
+        <a href="#services">services</a>
+        <a href="#about">about</a>
+        <a href="#contact">contact</a>
+    </div>
+    </nav>
     </header>
-    <div>
-        <h1>Simple Digital Solution</h1>
-        <p>Helping People solve everyday didgiatl problems with simple and fast services</p>
-        <button>
-            get started
-        </button>
+    
+    <div id="home" class="hero">
+        <h1>Simple Digital Solution</h1> <br>
+        <p>Helping People solve everyday digital problems with simple and fast services<p>
+        <button class="btn"> Get Started</button>
     </div>
-    <div>
+
+    <div id="services" class="services-section">
         <h1>Our Services</h1>
-        <div>
-            <h5>Web Supprot</h5>
-            <p>Some Time Expert</p>
+        <div class="services-container">
+        <div class="service-card">
+            <h5>Web Support</h5>
+            <p>Quick and reliable web support for your projects.</p>
         </div>
-        <div>
+        <div class="service-card">
              <h5>Tech Assistant</h5>
-             <p>Some Time Expert</p>
+             <p>Professional technical help whenever you need it.</p>
         </div>
-        <div>
+        <div class="service-card">
              <h5>Online Tutoring</h5>
-             <p>Some Time Expert</p>
+             <p>Learn digital skills with guided online tutoring.</p>
         </div>
-        <div>
+        <div class="service-card">
              <h5>Digital Design</h5>
-             <p>Some Time Expert</p>
-        </div>
+             <p>Creative digital designs that make your project stand out.</p>
+         </div>
     </div>
-        <div>
+
+    <div id="about" class="about-section">
             <h1>About TaskPro</h1>
-            <p>Taskpro is a simple didgiatl services platform created to provide fast and easy solutions for everyday digital needs. Our goal is to make technology simple, accesible, and helpful for eveyone</p>
-        </div>
-        <div>
+            <p>Taskpro is a simple digital services platform created to provide fast and easy solutions for everyday digital needs. Our goal is to make technology simple, accessible, and helpful for everyone</p>
+    </div>
+
+    <div id="contact" class="contact">
             <h1> Contact Us</h1>
             <form>
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email"required>
-                <input type="text" placeholder="Your Message"required>
-                <button>Mit</button>
+                <input type="text" placeholder="Your Name" required><br><br>
+                <input type="email" placeholder="Your Email"required> <br><br>
+                <input type="text" placeholder="Your Message"required> <br><br>
+                <button>Send Message</button>
             </form>
-        </div>
-        <div>
-            <footer>
-                <p>2026.All Rights Reserved.</p>
-            </footer>
-        </div>
     </div>
+    <footer>
+            <p>&copy; 2026. All Rights Reserved.</p>
+    </footer>
 </body>
 </html>
 
 
-<!-- git config --global user.name "Your GitHub Name"
-git config --global user.email "your_github_email@example.com"--
+
+
