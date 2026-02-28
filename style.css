@@ -80,30 +80,6 @@ a:hover{
     color: #334155;
 }
 
-.btn{
-    padding: 14px;
-    border: none;
-    border-radius: 10px;
-    background: linear-gradient(to right, #1e293b, #0f172a);
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s ease;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
-.hero .btn:hover{
-    padding: 14px;
-    border: none;
-    border-radius: 10px;
-    background: linear-gradient(to right, #1e293b, #0f172a);
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    transition: 0.3s ease;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-}
-
 .services-section{
     padding: 80px 80px;
     text-align: center;
@@ -220,7 +196,7 @@ a:hover{
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
-.contact button:hover{
+.contact button,.btn:hover{
     transform: translateY(-3px);
     box-shadow: 0 12px 25px rgba(0,0,0,0.2);
 }
